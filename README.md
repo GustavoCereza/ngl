@@ -1,7 +1,7 @@
 # Bot de Saturação de Mensagens Anônimas para ngl.link
 
 ## Aviso Legal
-**`Este projeto foi desenvolvido EXCLUSIVAMENTE PARA FINS EDUCACIONAIS e demonstração de conceitos técnicos. O uso deste bot em sistemas reais deve seguir rigorosamente as leis e políticas de uso das plataformas alvo. O desenvolvedor não se responsabiliza por qualquer uso indevido, abusivo ou contrário às normas legais.`**
+> Este projeto foi desenvolvido **EXCLUSIVAMENTE PARA FINS EDUCACIONAIS** e demonstração de conceitos técnicos. O uso deste bot em sistemas reais deve seguir rigorosamente as leis e políticas de uso das plataformas alvo. O desenvolvedor não se responsabiliza por qualquer uso indevido, abusivo ou contrário às normas legais.
 
 ## 1. Visão Geral
 Este projeto é um bot desenvolvido em Python para interagir com plataformas de mensagens anônimas, simulando diversos usuários. Ele envia mensagens em intervalos aleatórios com identificadores únicos (`deviceId`), imitando dispositivos diferentes. O bot utiliza `HTTP/2 e SSL` para garantir comunicação segura e eficiente.
@@ -43,7 +43,7 @@ git clone https://github.com/seuusuario/bot-mensagens-anonimas.git
 cd bot-mensagens-anonimas
 ```
 
-OBS: Mude o nome do usuário para a vitima desejada. Para isso apenas dê um `sudo nano /bot-mensagens-anonimas/bot.py` e altere o `username`. 
+> Obs: Mude o nome do usuário para a vitima desejada. Para isso apenas dê um `sudo nano /bot-mensagens-anonimas/bot.py` e altere o `username`. 
 
 Execute o bot:
 ```bash
